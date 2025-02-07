@@ -1,0 +1,64 @@
+{
+    "manifest_version": 3,
+    "name": "Phighting-Ultimate",
+    "description": "The ultimate phighting mod phor all phighters alike. (But mainly me.)",
+    "version": "1.0",
+    "icons":
+    {
+        "512": "images/Phighting-Icon.png"
+    },
+    "author": "ArkSayHi",
+    "developer":
+    {
+        "name": "ArkSayHi"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "wallpaper":
+            {
+                "dark":
+                {
+                    "image": "images/DarkageCliffs.png",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#ffffff"
+                },
+                "light":
+                {
+                    "image": "images/DominoValley.png",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#00ff00"
+                }
+            },
+        
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/Skateboard-Switch.mp3"
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/Hyperlaser-Ray.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/Slingshot-Jump.mp3"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/Biograft-Swing.mp3"
+                ]
+            },
+
+            "background_music":
+            [
+                "sounds/16. READ BY THE BOOK.mp3",
+                "sounds/16. READ BY THE BOOK.mp3"
+            ]
+       }
+    }
+    
+}
